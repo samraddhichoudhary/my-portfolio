@@ -3,26 +3,26 @@
 export default function Home() {
   const projects = [
     {
-      title: "AI Resume Analyzer",
+      title: "AI Election Sentiment",
       description:
-        "An intelligent web app that analyzes resumes and provides ATS optimization suggestions using Python and Machine Learning.",
-      tech: ["Python", "Flask", "Machine Learning"],
-      github: "#",
+        "An intelligent full-stack web application that performs natural language processing on text inputs to analyze and visualize election-related public sentiment trends.",
+      tech: ["Python", "FastAPI", "Machine Learning", "HTML", "JavaScript"],
+      github:"https://github.com/samraddhichoudhary/ai-election-sentiment.git",
       live: "#",
     },
     {
-      title: "Modern E-Commerce Website",
+      title: "Library Management System",
       description:
-        "A sleek and responsive shopping platform with cart functionality, payment integration, and admin dashboard.",
-      tech: ["React", "Tailwind", "Firebase"],
-      github: "#",
+        "A full-stack Learning Management System featuring a relational database to dynamically create, store, and navigate educational course syllabi and modular text lessons.",
+      tech:["Python", "FastAPI", "SQLite", "SQLAlchemy", "JavaScript"],
+      github:"https://github.com/samraddhichoudhary/ai-lms-portal.git",
       live: "#",
     },
     {
-      title: "Portfolio Dashboard",
+      title: "Nova AI Assistant",
       description: "An advanced portfolio dashboard with animations, dark mode, contact form, and GitHub integration.",
       tech: ["Next.js", "Framer Motion", "MongoDB"],
-      github: "#",
+      github: "https://github.com/samraddhichoudhary/Nova-AI-Assistant.git",
       live: "#",
     },
   ];
