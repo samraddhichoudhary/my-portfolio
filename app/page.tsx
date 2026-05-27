@@ -8,7 +8,7 @@ export default function Home() {
         "An intelligent full-stack web application that performs natural language processing on text inputs to analyze and visualize election-related public sentiment trends.",
       tech: ["Python", "FastAPI", "Machine Learning", "HTML", "JavaScript"],
       github:"https://github.com/samraddhichoudhary/ai-election-sentiment.git",
-      live: "https://github.com/samraddhichoudhary/ai-election-sentiment",
+      live: "https://ai-election-sentiment.onrender.com",
     },
     {
       title: "Library Management System",
