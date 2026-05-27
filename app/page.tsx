@@ -8,7 +8,7 @@ export default function Home() {
         "An intelligent full-stack web application that performs natural language processing on text inputs to analyze and visualize election-related public sentiment trends.",
       tech: ["Python", "FastAPI", "Machine Learning", "HTML", "JavaScript"],
       github:"https://github.com/samraddhichoudhary/ai-election-sentiment.git",
-      live: "#",
+      live: "https://github.com/samraddhichoudhary/ai-election-sentiment",
     },
     {
       title: "Library Management System",
@@ -16,14 +16,14 @@ export default function Home() {
         "A full-stack Learning Management System featuring a relational database to dynamically create, store, and navigate educational course syllabi and modular text lessons.",
       tech:["Python", "FastAPI", "SQLite", "SQLAlchemy", "JavaScript"],
       github:"https://github.com/samraddhichoudhary/ai-lms-portal.git",
-      live: "#",
+      live: "https://github.com/samraddhichoudhary/ai-lms-portal",
     },
     {
       title: "Nova AI Assistant",
       description: "An advanced portfolio dashboard with animations, dark mode, contact form, and GitHub integration.",
       tech: ["Next.js", "Framer Motion", "MongoDB"],
       github: "https://github.com/samraddhichoudhary/Nova-AI-Assistant.git",
-      live: "#",
+      live: "https://my-portfolio-xi-ebon-64.vercel.app",
     },
   ];
 
