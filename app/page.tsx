@@ -82,10 +82,10 @@ export default function Home() {
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl blur opacity-30" />
             <div className="relative bg-white/5 border border-white/10 backdrop-blur-2xl rounded-3xl p-8 shadow-2xl">
               <div className="flex items-center gap-4 mb-8">
-               <img 
-               src="/profile.jpg" 
-               alt="Samraddhi" 
-                className="w-16 h-16 rounded-2xl object-cover border border-white/10" 
+                <img 
+                  src="/profile.jpg" 
+                  alt="Samraddhi" 
+                  className="w-16 h-16 rounded-2xl object-cover border border-white/10" 
                 />
                 <div>
                   <h2 className="text-2xl font-bold">Samraddhi Choudhary</h2>
@@ -99,7 +99,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between border-b border-white/10 pb-3">
                   <span>LinkedIn</span>
-                  <span>www.linkedin.com/in/samraddhi-choudhary-5235302a8</span>
+                  <span className="text-xs">www.linkedin.com/in/samraddhi-choudhary-5235302a8</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Location</span>
@@ -111,8 +111,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* NEW ABOUT ME SECTION */}
+      <section id="about" className="max-w-5xl mx-auto px-6 py-28 border-t border-white/5">
+        <h2 className="text-4xl md:text-6xl font-black mb-12 text-center">About Me</h2>
+        <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 backdrop-blur-md max-w-3xl mx-auto">
+          <p className="text-gray-300 text-lg leading-relaxed mb-6">
+            I am a Computer Science and Engineering student dedicated to building high-performance, robust software architectures. My core expertise centers on crafting production-ready backend workflows with Python and FastAPI, handling structured relational databases, and utilizing modern frontend stacks like Next.js to provide fluid user interactions.
+          </p>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            Driven by complex problem-solving, I love translating complex technical problems into minimal, functional web deployments. I am constantly refining my skills through full-stack projects, design layout patterns, and building automated tool integrations.
+          </p>
+        </div>
+      </section>
+
       {/* PROJECTS SECTION */}
-      <section id="projects" className="max-w-7xl mx-auto px-6 py-28">
+      <section id="projects" className="max-w-7xl mx-auto px-6 py-28 border-t border-white/5">
         <h2 className="text-4xl md:text-6xl font-black mb-16 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -135,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* SKILLS SECTION */}
-      <section id="skills" className="max-w-7xl mx-auto px-6 py-28 text-center">
+      <section id="skills" className="max-w-7xl mx-auto px-6 py-28 text-center border-t border-white/5">
         <h2 className="text-4xl md:text-6xl font-black mb-16">Skills</h2>
         <div className="flex flex-wrap justify-center gap-4">
           {skills.map((skill, index) => (
@@ -147,7 +160,10 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="border-t border-white/10 py-8 text-center text-gray-500 text-xs">
+      <footer id="contact" className="border-t border-white/10 py-12 text-center text-gray-500 text-xs">
+        <div className="mb-4 text-gray-400 text-sm">
+          Get in touch: <span className="text-purple-400">samraddhichoudhary22mail@gmail.com</span>
+        </div>
         © 2026 Samraddhi Choudhary. Built with Next.js.
       </footer>
     </div>
